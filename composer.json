@@ -1,0 +1,21 @@
+{
+    "name": "vagrant/hillel.loc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aleksei Marakhin",
+            "email": "aleksandr671@yandex.ua"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.2",
+        "vlucas/valitron": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "description": "Doing some basic stuff"
+}
